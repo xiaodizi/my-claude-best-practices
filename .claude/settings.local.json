@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude:*)",
+      "Bash(node /home/tester/.claude/plugins/cache/claude-hud/dist/index.js)"
+    ]
+  }
+}

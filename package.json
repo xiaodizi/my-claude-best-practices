@@ -1,0 +1,14 @@
+{
+  "name": "my-claude-best-practices",
+  "version": "1.0.0",
+  "description": "Claude Code 最佳实践配置指南 - 10个提升效率的实用技巧",
+  "author": "lei.fu",
+  "license": "MIT",
+  "keywords": [
+    "claude",
+    "claude-code",
+    "best-practices",
+    "configuration",
+    "tips"
+  ]
+}

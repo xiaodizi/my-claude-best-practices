@@ -1,0 +1,31 @@
+{
+  "name": "my-claude-best-practices",
+  "owner": {
+    "name": "xiaodizi",
+    "url": "https://github.com/xiaodizi/my-claude-best-practices"
+  },
+  "source": "./",
+  "plugins": [
+    {
+      "name": "my-claude-best-practices",
+      "description": "我的 Claude Code 实践配置指南 - 10个提升效率的实用技巧",
+      "source": "./"
+    },
+    {
+      "name": "claude-hud",
+      "description": "A beautiful status line HUD for Claude Code",
+      "source": {
+        "source": "github",
+        "repo": "jarrodwatts/claude-hud"
+      }
+    },
+    {
+      "name": "claude-mem",
+      "description": "Persistent cross-session memory for Claude Code",
+      "source": {
+        "source": "github",
+        "repo": "thedotmack/claude-mem"
+      }
+    }
+  ]
+}
