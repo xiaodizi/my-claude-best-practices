@@ -33,7 +33,7 @@
 ```bash
 git clone https://github.com/xiaodizi/my-claude-best-practices.git
 cd my-claude-best-practices
-/plugin install ./claude-best-practices
+/plugin install .
 ```
 
 ## ⚡ 快速开始
