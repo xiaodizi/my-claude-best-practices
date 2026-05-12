@@ -18,6 +18,9 @@
 | 🖥️ **Claude HUD 集成** | ✅ 自动安装 | 美观实用的状态仪表盘，显示上下文使用情况 |
 | 🧠 **Claude-Mem 记忆** | ✅ 自动安装 | 跨会话持久化记忆，AI 记得你们聊过什么 |
 | ⚡ **Code-Simplifier Agent** | ✅ 自动配置 | 官方代码简化专家，自动优化代码质量 |
+| 📚 文档更新 | ✅ 已更新 | 增加通过环境变量禁用内置 Auto Memory 的说明（使用 `CLAUDE_CODE_DISABLE_AUTO_MEMORY=1`）；setup 在检测到 claude-mem 时建议禁用（skills/setup/SKILL.md:14-20）。 |
+| 🛠️ 脚本改进 | ✅ 优化 | 改进 scripts/format-code.sh 的 ensure_command 检查与多语言格式化支持。 |
+| 🧭 CLAUDE.md: Karpathy 四大原则 | 📖 可选 | setup 提供将 Karpathy 的“AI 编程四大原则”合并到全局 `~/.claude/CLAUDE.md` 的选项。 |
 
 ## 📥 安装
 
@@ -98,3 +101,15 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 - [Claude HUD](https://github.com/jarrodwatts/claude-hud) by @jarrodwatts
 - [Claude Mem](https://github.com/thedotmack/claude-mem) by @thedotmack
 - Claude Code 团队做出了这么棒的工具 👍
+
+## 发布记录
+
+### v1.0.1 — 2026-05-12
+
+- 文档: 增加通过环境变量禁用内置 Auto Memory 的说明（使用 `CLAUDE_CODE_DISABLE_AUTO_MEMORY=1`），并在 setup 中检测到 claude-mem 时建议禁用内置 Auto Memory（详见 skills/setup/SKILL.md:14-20）。
+- 版本: 将 package.json 版本号更新为 1.0.1（package.json:3）。
+- 改进: 优化 scripts/format-code.sh 的 ensure_command 检查与多语言格式化支持（scripts/format-code.sh:10-40, 42-85）。
+- 修正: 更新 .gitignore 以忽略 .DS_Store 与 .claude 目录（.gitignore:1-4）。
+- 其他: 准备发布的若干小幅文档和元数据调整（chore: 更新内容，准备发布 v1.0.1）。
+
+更多细节请查看提交记录（git log）或仓库中的相应文件。
