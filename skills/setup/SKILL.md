@@ -1,5 +1,5 @@
 ---
-name: my-claude-best-practices:setup
+name: setup
 description: 一键自动配置 Claude Code 最佳实装 - 包括上下文压缩阈值、Git 署名清理、自定义 spinner 等
 ---
 
